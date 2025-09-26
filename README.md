@@ -12,7 +12,6 @@ Diabetes is becoming a major public health concern around the world, necessitati
 
 The dataset used for this project contains demographic and clinical features, including age, gender, BMI, HbA1c level, blood glucose level, hypertension, heart disease, and smoking history. The target variable is binary, indicating the presence or absence of diabetes.
 
-**Dataset Source**: [Kaggle Diabetes Prediction Dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 
 ## Used Models
 
@@ -27,9 +26,8 @@ While assessing the SVM model, we experimented with kernels including Linear, RB
 
 ## Contents
 
-- **Notebook**: Jupyter notebook [`Diabetes Prediction Project.ipynb`](https://github.com/niloyahsan1/Diabetes-Prediction-ML-Project/blob/main/Diabetes_Prediction_Project.ipynb) containing the project code and analysis.
-- **Dataset**: CSV file [`Diabetes Prediction Dataset.csv`](https://github.com/niloyahsan1/Diabetes-Prediction-ML-Project/blob/main/Diabetes_Dataset.csv) containing the dataset used for training and testing.
-- **Report**: Project report [`Project Report.pdf`](https://github.com/niloyahsan1/Diabetes-Prediction-ML-Project/blob/main/Project_Report.pdf) summarizing the project objectives, methodology, results, and conclusions.
+- **Notebook**: Jupyter notebook [`Diabetes Detection.ipynb`](https://github.com/irrfanulhoque/Diabetes_Prediction_Project/blob/main/Diabetes_Detection.ipynb) containing the project code and analysis.
+- **Dataset**: CSV file [`diabetes.csv`](https://github.com/irrfanulhoque/Diabetes_Prediction_Project/blob/main/diabetes.csv) containing the dataset used for training and testing.
 
 ## Usage
 
@@ -38,16 +36,16 @@ To run the project code, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/niloyahsan1/Diabetes-Prediction-ML-Project.git
+   git clone https://github.com/irrfanulhoque/Diabetes_Prediction_Project.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd Diabetes-Prediction-ML-Project
+   cd Diabetes_Prediction_Project
    ```
 
-3. Open and run the Jupyter Notebook (`Diabetes_Prediction_Project.ipynb`) to execute the project code.
+3. Open and run the Jupyter Notebook (`Diabetes_Detection.ipynb`) to execute the project code.
 
 ## Dependencies
 
@@ -65,6 +63,5 @@ You can install these dependencies using pip:
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-## Contributors
 
-- Chaity Rani Ghosh ([@chaityrg](https://github.com/chaityrg))
+
